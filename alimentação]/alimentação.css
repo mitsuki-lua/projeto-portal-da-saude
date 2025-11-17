@@ -16,5 +16,15 @@ h1{
     font-weight: normal;
 }
 .p1{
-    
+  text-align: center;
+  margin-top: 250px;
+}
+.conse1{
+  display: flex;
+  float: right;
+  width: ;
+}
+.conse2{
+  display: flex;
+  float: right;
 }
