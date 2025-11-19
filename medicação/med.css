@@ -22,11 +22,10 @@ nav{
     color: white;
     position: relative;
     font-size: 17px;
+    left: 300px;
     
 }
-#home{
-    margin-left: 1000px;
-}
+
 .btnav:hover {
     color: #F61067;
 }
@@ -56,9 +55,11 @@ h2{
     position: relative;
     background: none;
     padding: 0%;
-    bottom: 630px;
+    bottom: 600px;
     left: 850px;
-    font-size: 25px;
+    font-size: 20px;
+    color: #dee5e5;
+    width: 500px;
 }
 .topico{
     font-size: 30px;
@@ -86,7 +87,7 @@ h2{
 .ulmed{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 40px;
     overflow-x: scroll;
     
 }
@@ -112,4 +113,7 @@ h2{
 .consequencias li{
     margin-left: 20px;
     font-size: 20px;
+}
+.denuncia{
+    height: 250px;
 }
