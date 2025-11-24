@@ -64,3 +64,35 @@ h1{
     font-size: 50px;
     color: #08415c;
 }
+.equipe{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 30px;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+h2{
+    position: relative;
+    left: 370px;
+    bottom: 140px;
+    font-size: 30px;
+}
+.nos{
+    width: 400px;
+    position: relative;
+    left: 370px;
+    bottom: 140px;
+}
+.conheça{
+    position: relative;
+    left: 370px;
+    bottom: 60px;
+    background-color: #08415c;
+    color: white;
+    font-size: 20px;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+}
