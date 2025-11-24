@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: #dee5e5;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #08415c;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    gap: 120px;
+    
+}
+.menubtn{
+    height: 100%;
+    background: none;
+    border: none;
+    color: white;
+    position: relative;
+    font-size: 17px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.btnav{
+    height: 100%;
+    background: none;
+    border: none;
+    color: white;
+    position: relative;
+    font-size: 17px;
+    left: 115px;
+    
+}
+
+.btnav:hover {
+    color: #00ffdd;
+}
+.imagem-inicio{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.principal{
+    height: 800px;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+}
+h1{
+    z-index: 2;
+    position: relative;
+    bottom: 650px;
+    left: 300px;
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+    color: #08415c;
+}
+.equipe{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 30px;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+h2{
+    position: relative;
+    left: 370px;
+    bottom: 140px;
+    font-size: 30px;
+}
+.nos{
+    width: 400px;
+    position: relative;
+    left: 370px;
+    bottom: 140px;
+}
+.conheça{
+    position: relative;
+    left: 370px;
+    bottom: 60px;
+    background-color: #08415c;
+    color: white;
+    font-size: 20px;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+}
