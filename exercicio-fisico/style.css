@@ -147,7 +147,7 @@ nav ul li a:hover {
 /*==========================
       TÍTULOS
 ===========================*/
-h2 {
+h1, h2, h3, h4, h5, h6 {
     color: #08415c;
     margin-bottom: 10px;
 }
@@ -155,16 +155,15 @@ h2 {
 /*==========================
       SEÇÕES EM CARD
 ===========================*/
-..conteudo {
+.conteudo {
     background: #ffffff;
     margin: 30px auto;
     padding: 35px;
-    width: 95%;
-    max-width: 1100px;
-
+    width: ;
+    max-width: 100vw;
     border-radius: 20px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.22);
-    border-left: 8px solid #08415c;
+    border-left: 8px solid white;
 
     min-height: 250px;
 }
