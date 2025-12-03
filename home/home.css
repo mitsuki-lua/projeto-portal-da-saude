@@ -4,6 +4,12 @@ body{
     overflow-x: hidden;
     height: auto;
 }
+body{
+    height: 1000px;
+    margin: 0;
+    background-color: #dee5e5;
+    overflow-x: hidden;
+}
 nav{
     background-color: #08415c;
     width: 100%;
@@ -49,8 +55,8 @@ nav p{
     border: none;
     color: white;
     position: relative;
-    font-size: 17px;
-    left: 380px;
+    font-size: 12px;
+    left: 410px;
     cursor: pointer;
     transition: 0.2s;
 }
