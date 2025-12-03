@@ -21,39 +21,61 @@
         <h1>BEM VINDO</h1>
         <h6>AO PORTAL DA SAÚDE</h6>
         <p class="textin">Seu guia completo para uma vida mais saudável e equilibrada.</p>
-        <button class="btni">Comece a Explorar</button>
+        <button class="btni"  onclick="scrollParaElemento()">Comece a Explorar</button>
+    </div>
+    <div class="catalogo" id="seção">
+        <h4>Explore Nossos Pilares de Saúde</h4>
+        <p class="text2">Descubra dicas e informações essenciais para cuidar do seu bem-estar em todas as áreas <br>da sua vida.</p>
+        <ul>
+            <a href="../alimentacao/alimentação.html">
+                <li class="cards">
+                <img class="imgcat" src="simg.jpg" alt="">
+                <h3>Alimentação</h3>
+                <p>Receitas, dietas e dicas para uma nutrição balanceada.</p>
+                </li>
+            </a>
+            <a href="">
+            <li class="cards">
+                <img class="imgcat" src="simg.jpg" alt="">
+                <h3>Exercício Físico</h3>
+                <p>Rotinas de treino, exercícios e motivação para se manter ativo.</p>
+            </li>
+            </a>
+            <a href="../medicacao/med.html">
+            <li class="cards">
+                <img class="imgcat" src="simg.jpg" alt="">
+                <h3>Medicação</h3>
+                <p>Informações sobre medicamentos, dosagens e cuidados.</p>
+            </li>
+            </a>
+            <a href="../estetica/estetica.html">
+            <li class="cards">
+                <img class="imgcat" src="simg.jpg" alt="">
+                <h3>Estética</h3>
+                <p>Dicas de cuidados com a pele, cabelo e bem-estar.</p>
+            </li>
+            </a>
+
+        </ul>
     </div>
     <div class="todos">
         <img class="equipe" src="equipe.jpg" alt="equipe">
-        <h2>quem somos nos?</h2>
-        <p class="nos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora asperiores a voluptatum dolor, qui ipsa. Suscipit vitae officia sunt, saepe enim autem repellat et inventore earum ipsum, consequatur adipisci in.</p>
-        <button class="conheça">conheça a equipe</button>
+        <div class="todoscontainer">
+            <h2>quem somos nos?</h2>
+            <p class="nos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora asperiores a voluptatum dolor, qui ipsa. Suscipit vitae officia sunt, saepe enim autem repellat et inventore earum ipsum, consequatur adipisci in.</p>
+            <button class="conheça">conheça a equipe</button>
+        </div>
     </div>
-
-    <div class="carrossel">
-        <button id="prevbutton" class="btnimg">◀</button>
-        <br>
-        <ul id="imglist">
-           <li>
-            <img src="../medicacao/med2.jpg" alt="">
-            <a href="../medicacao/med.html"><button class="ir">vamos lá</button></a>
-            </li>
-           <li>
-            <img src="simg.jpg" alt="">
-            <a href=""><button class="ir">vamos lá</button></a>
-            </li>
-           <li>
-            <img src="logo.jpg" alt="">
-            <button class="ir">vamos lá</button>
-            </li>
-           <li>
-            <img src="equipe.jpg" alt="">
-            <button class="ir">vamos lá</button>
-            </li>
-        </ul>
-
-        <button id="nextbutton" class="btnimg2">▶</button>
-    </div>
+    <footer>
+        <div class="direitos">
+            <p>© 2024 Portal da Saúde. Todos os direitos reservados.</p>
+        </div>
+        <div class="redes">
+            <p>facebook</p>
+            <p>insta</p>
+            <p>twitter</p>
+        </div>
+    </footer>
     <script src="home.js"></script>
 </body>
 </html>
