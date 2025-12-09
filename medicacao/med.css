@@ -64,6 +64,8 @@ nav p{
     height: 800px;
     margin: 0;
     padding: 0%;
+    text-align: center;
+    
 }
 .foto{
     width: 100%;
@@ -75,22 +77,19 @@ nav p{
 }
 h1{
     position: relative;
+    bottom: 80%;
     background: none;
     padding: 0%;
-    bottom: 600px;
-    left: 850px;
-    font-size: 50px;
-    color: #08415c;
+    font-size: 80px;
+    color: white;
 }
 h2{
     position: relative;
     background: none;
     padding: 0%;
-    bottom: 600px;
-    left: 850px;
+    bottom: 650px;
     font-size: 20px;
     color: #dee5e5;
-    width: 500px;
 }
 .topico{
     font-size: 30px;
