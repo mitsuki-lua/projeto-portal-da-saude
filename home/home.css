@@ -74,7 +74,7 @@ nav p{
 }
 .principal{
     height: 800px;
-    background-image: url(simg.jpg);
+    background-image: url(WhatsApp\ Image\ 2025-12-18\ at\ 12.11.13.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -97,13 +97,15 @@ h1{
     width: auto;
     text-align: center;
     font-size: 70px;
-    color: #08415c;
+    color: white;
+    text-shadow: 2px 2px 4px #888888;
 }
 
 .textin{
     z-index: 2;
     font-size: 25px;
-    color: #08415c;
+    color: white;
+    text-shadow: 2px 2px 4px #888888;
 }
 .btni{
     background-color: #136083;
@@ -184,7 +186,6 @@ ul{
 .todoscontainer{
     display: flex;
     flex-direction: column;
-    gap: 50px;
     text-align: center;
 }
 h2{
@@ -192,8 +193,10 @@ h2{
 }
 .nos{
     width: 370px;
-    font-size: 18px;
-    text-align: center;
+    font-size: 21px;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 20px;
 }
 .conheça{
     background-color: #136083;
