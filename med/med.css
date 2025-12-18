@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #dee5e5;
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 /* layout container to align all sections to the same left margin */
 .container{
@@ -72,7 +73,17 @@ nav p{
     margin: 0;
     padding: 0%;
     text-align: center;
-    
+    background-image: url("WhatsApp Image 2025-12-18 at 12.11.28.jpeg");
+    background-image: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .foto{
     width: 100%;
@@ -122,17 +133,44 @@ nav p{
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 .pq{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 320px));
+    gap: 28px 32px;
+    justify-content: center; /* center the grid inside container */
+    width: 100%;
+    align-items: start;
+    margin: 20px 0 40px 0;
 }
 .pq li{
     display: flex;
-    gap: 30px;
-    width: 350px;
+    gap: 16px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 320px;
+}
+
+/* center the grid inside the container */
+.dcard .container{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px){
+    .pq{
+        grid-template-columns: repeat(2, minmax(0, 320px));
+    }
+}
+
+@media (max-width: 600px){
+    .pq{
+        grid-template-columns: 1fr;
+    }
+    .pq li{
+        max-width: 100%;
+    }
 }
 .it:hover .ranimg{
     transform: scale(1.1);
